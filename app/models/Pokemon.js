@@ -19,7 +19,7 @@ export class Pokemon {
   }
   static activeTemplate(){
     return /*html*/ `
-    <div class="col-md-4 my-3">
+    <div class="col- my-3">
       <div class="card elevation-1">
         <img class="rounded-top" src="${
 // @ts-ignore
@@ -37,7 +37,7 @@ export class Pokemon {
           </p>
           <div class="d-flex align-items-center justify-content-between border-top pt-2">
               
-              <button onclick="app.PokeApiController.catchPokemon()" class="btn btn-primary">Catch</button>
+              <button onclick="app.SandboxPokemonController.catchPokemon()" class="btn btn-primary">Catch</button>
           
               <div>
                 <span class="text-capitalize"></span>

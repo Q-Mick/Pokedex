@@ -12,7 +12,7 @@ class ObservableAppState extends EventEmitter {
   socketData = []
 /** @type {import('./models/Pokemon.js').Pokemon[]} */
   pokemon = []
-  mypokemon = []
+  myPokemon = []
   activePokemon = null
   // Used to load initial data
   init() {
